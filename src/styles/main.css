@@ -1,0 +1,57 @@
+@media (orientation: landscape){
+    main {
+        margin: 0 auto;
+        width: 80%;
+        padding-top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inp-div {
+        height: 30px;
+        margin-bottom: 40px;
+    }
+
+    .main-button {
+        margin: 0px auto;
+    }
+
+    .geo-button {
+        margin-top: 20px;
+    }
+
+    input {
+        margin: 0;
+    }
+}
+
+@media (orientation: portrait) {
+    main {
+        margin: 0 auto;
+        width: 98%;
+        padding: 0;
+    }
+
+    .geo-button {
+        margin-top: 10px;
+        width: 98%;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .main-button {
+        margin-top: 10px;
+        width: 98%;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    input {
+        width: 98%;
+        line-height: 28px !important;
+        padding: 20px 10px;
+    }
+}
+
